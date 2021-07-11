@@ -1,0 +1,39 @@
+{
+  "name": "Sakran",
+  "version": "0.0.1",
+  "description": "Mod Bot.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "discord-backup": "^2.4.1",
+    "@sentry/node": "^6.2.2",
+    "discord.js": "^12.5.2",
+    "node-fetch": "^2.6.1",
+    "moment-timezone": "^0.5.33",
+    "fs": "^0.0.2",
+    "node-fetch": "^2.6.1",
+    "figlet": "^1.5.0",
+    "nekos.life": "^2.0.7",
+    "util": "^0.12.3",
+    "common-tags": "^1.8.0",
+    "novelcovid": "^3.0.0",
+    "quick.db": "^7.1.1",
+    "ms": "^2.1.2",
+    "weather-js": "^2.0.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
