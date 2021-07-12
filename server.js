@@ -22,9 +22,6 @@ client.on("ready", async () => {
      .catch(error => console.log(error));
  });
 
-  
-      }, (5000));
-
 client.on("message", async message => {
   if (message.channel.type === "dm") return;
   if (message.author.bot) return;
