@@ -12,8 +12,8 @@ module.exports = {
      .setFooter(`Request By | ${message.author.tag}`) 
      .setTitle(`list of all commands`)
      .setDescription(`[ Invite Bot ](https://discord.com/api/oauth2/authorize?client_id=816340990859673631&permissions=8&scope=bot)`)
-     .addField("🛠 Moderation", "`ban`, `kick`, `clear`, `moveall`, `hide` ,`show`, `mute`, `unmute`, `vmute`, `vunmute`, `deafen` ,`undeafen`, `lock`, `unlock`, `slowmode`, `backup`, `allbots` ,`vkick`, `unban`")
-     .addField("ℹ️ Info", "`help`, `invite`, `ping`, `listemoji`, `roles` ,`botinfo`, `userinfo`, `serverinfo`, `serveravatar`, `numberinvite`, `avatar`")
+     .addField("🛠 Moderation", "`ban`, `kick`, `clear`, `mute`, `unmute`, `vmute`, `vunmute`, `lock`, `unlock`, `slowmode`, `vkick`, `unban`")
+     .addField("ℹ️ Info", "`help`, `invite`, `ping`, `roles` ,`botinfo`, `userinfo`, `serverinfo`, `serveravatar`,  `avatar`")
      message.channel.send(embed);
     }
 }
