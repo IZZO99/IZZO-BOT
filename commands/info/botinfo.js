@@ -17,7 +17,7 @@ const moment = require("moment-timezone");
 module.exports = {
   name: "botinfo",
   aliases: [],
-  description: "Pong!",
+  description: "Ping!",
   usage: "Ping",
   run: async (client, message, args) => {
 
@@ -26,7 +26,7 @@ const created = moment(client.user.createdAt).format("YYYY-MM-DD");
      
        let embed = new Discord.MessageEmbed()
         .setTitle(`Info ${client.user.username}`)
-        .setColor("f1c40f")
+        .setColor("RANDOM")
         .setThumbnail(client.user.displayAvatarURL())
         .addField(`**My Name:**`,`${client.user.tag}`)
         .addField(`**My ID**`,`${client.user.id}`)
