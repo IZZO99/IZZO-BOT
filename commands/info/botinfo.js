@@ -30,7 +30,7 @@ const created = moment(client.user.createdAt).format("YYYY-MM-DD");
         .setThumbnail(client.user.displayAvatarURL())
         .addField(`**My Name:**`,`${client.user.tag}`)
         .addField(`**My ID**`,`${client.user.id}`)
-        .addField(`**My Prefix**`,`k?`)
+        .addField(`**My Prefix**`,`/`)
         .addField(`**Libary**`,`discord.js`)
         .addField(`**Discord.js Version**`,`${Discord.version}`)
         .addField(`**Created At:**`,`[**${created}**]`)
