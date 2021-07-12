@@ -8,7 +8,7 @@ module.exports = {
   run: async(client, message, args) => {
     
   let embed = new Discord.MessageEmbed()
-     .setColor("f1c40f")
+     .setColor("RANDOM")
      .setFooter(`Request By | ${message.author.tag}`) 
      .setTitle(`list of all commands`)
      .setDescription(`[ **Invite** ](https://discord.com/api/oauth2/authorize?client_id=844516322548776970&permissions=3691375729&scope=bot)`)
