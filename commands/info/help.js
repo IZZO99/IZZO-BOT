@@ -11,7 +11,7 @@ module.exports = {
      .setColor("RANDOM")
      .setFooter(`Request By | ${message.author.tag}`) 
      .setTitle(`list of all commands`)
-     .setDescription(`[ Invite Bot ](https://discord.com/api/oauth2/authorize?client_id=816340990859673631&permissions=8&scope=bot)\n
+     .setDescription(`[ Invite Bot ](https://discord.com/api/oauth2/authorize?client_id=816340990859673631&permissions=8&scope=bot)`)
      .addField("🛠 Moderation", "`ban`, `kick`, `clear`, `mute`, `unmute`, `vmute`, `vunmute`, `lock`, `unlock`, `slowmode`, `vkick`, `unban`")
      .addField("👻 Fun", "`kiss`, `slap`, `hug`, `pat`, `poke` ,`cuddle`, `feed`")
      .addField("ℹ️ Info", "`help`, `invite`, `ping`, `roles` ,`botinfo`, `userinfo`, `serverinfo`, `serveravatar`, `avatar`")
