@@ -14,6 +14,8 @@ module.exports = {
      .setDescription(`[ Invite Bot ](https://discord.com/api/oauth2/authorize?client_id=816340990859673631&permissions=8&scope=bot)`)
      .addField("🛠 Moderation", "`ban`, `kick`, `clear`, `mute`, `unmute`, `vmute`, `vunmute`, `lock`, `unlock`, `slowmode`, `vkick`, `unban`")
      .addField("ℹ️ Info", "`help`, `invite`, `ping`, `roles` ,`botinfo`, `userinfo`, `serverinfo`, `serveravatar`,  `avatar`")
+     .addField("😸Funny", "`cuddile`, `feed`, `hug`, `kiss`, `pat`, `poke`, `slap`,")
+     .addField("🤖Game", "`8ball`, `iq`, `rate`, respect`, `rps`, `ship`, `slots`,")
      message.channel.send(embed);
     }
 }
