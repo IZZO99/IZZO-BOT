@@ -12,12 +12,12 @@ module.exports = {
      .setFooter(`Request By | ${message.author.tag}`) 
      .setTitle(`list of all commands`)
      .setDescription(`[ Invite Bot ](https://discord.com/api/oauth2/authorize?client_id=816340990859673631&permissions=8&scope=bot)`)
-     .addField("Black Hat Is Here")
-       `🛠 Moderation`,`ban`,`kick`,`clear`,`mute`,`unmute`,`vmute`,`vunmute`,`lock`,`unlock`,`slowmode`,`vkick`,`unban`,`addrole`,`removerole`,
-       `ℹ️ Info`,`help`,`invite`, `ping`, `roles` ,`botinfo`, `userinfo`, `serverinfo`, `serveravatar`, `avatar`,
-       `😸Funny`,`cuddile`,`feed`,`hug`,`kiss`,`pat`,`poke`,`slap`,
-       `🤖Game`,`8ball`,`iq`,`rate`,`respect`,`rps`,`ship`,`slots`,
-       `🏙Images`,`captcha`,`love`,`phcomment`,`triggered`,`invert`,`wasted`,`clyde`,`facepalm`,
+     .addField("")
+       \`🛠Moderation\`,\`ban`,`kick`,`clear`,`mute`,`unmute`,`vmute`,`vunmute`,`lock`,`unlock`,`slowmode`,`vkick`,`unban`,`addrole`,`removerole`,
+       \`ℹ️ Info\`,\`help\`,\`invite\`,\`ping\`,\`roles\`,\`botinfo\`,\`userinfo\`,\`serverinfo\`,\`serveravatar\`,\`avatar\`,
+       \`😸Funny\`,\`cuddile\`,\`feed\`,\`hug\`,\`kiss\`,\`pat\`,\`poke\`,\`slap\`,
+       \`🤖Game\`,\`8ball\`,\`iq\`,\`rate\`,\`respectw\`,\`rps\`,\`ship\`,\`slots\`,
+       \`🏙Images\`,\`captcha\`,\`love\`,\`phcomment\`,\`triggered\`,\`invert\`,\`wasted\`,\`clyde\`,\`facepalm\`,
      message.channel.send(embed);
     }
 }
