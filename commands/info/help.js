@@ -16,6 +16,7 @@ module.exports = {
      .addField("ℹ️ Info", "`help`, `invite`, `ping`, `roles` ,`botinfo`, `userinfo`, `serverinfo`, `serveravatar`,  `avatar`")
      .addField("😸Funny", "`cuddile`, `feed`, `hug`, `kiss`, `pat`, `poke`, `slap`")
      .addField("🤖Game", "`8ball`, `iq`, `rate`, respect`, `rps`, `ship`, `slots`")
+     .addField("🏙Images," "`captcha`, `love`, phcomment`, `triggered`, `invert`, `wasted`, `clyde`, `facepalm`")
      message.channel.send(embed);
     }
 }
